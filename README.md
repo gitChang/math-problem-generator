@@ -23,6 +23,6 @@ These are required to run the app locally or test the API:
 
 - Next.js (App Router)
 - Supabase
-- Gemini API (Google Generative AI)
+- Gemini API (Gemini 2.5 Flash)
 - TailwindCSS
 - Vercel (Deployment)
