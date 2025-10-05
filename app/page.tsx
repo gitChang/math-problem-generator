@@ -30,6 +30,7 @@ export default function Home() {
       setSessionId(data.sessionId); // don’t forget this!
     } catch (error) {
       console.error("Error generating problem:", error);
+      setFeedback("Error generating problem: " + error);
     } finally {
       setIsLoading(false);
     }

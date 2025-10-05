@@ -10,7 +10,7 @@ const supabase = createClient(
 );
 
 export async function POST() {
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
 
   const prompt = `
     Generate a Primary 5 level math word problem.

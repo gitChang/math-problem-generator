@@ -33,7 +33,7 @@ export async function POST(req: Request) {
     Give personalized feedback for a Primary 5 student.
   `;
 
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
   const result = await model.generateContent(feedbackPrompt);
   const feedback = result.response.text();
 
